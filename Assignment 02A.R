@@ -1,1 +1,0 @@
-cat("Yiping, there are ", (as.Date("2021-05-07") - Sys.Date()),  " days left in the Semester")
