@@ -1,3 +1,3 @@
 for(i in 25:1) {
-  cat(i*i, "\n")
+  cat(i^2, "\n")
 }
