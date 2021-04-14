@@ -37,6 +37,5 @@ survey_replaced <- survey_replaced %>%
 survey_final <- survey_replaced %>% group_by(Owner) %>% summarise(sum = sum(Land.Area), n = n())
 
 # Print landowners start with "A"
-survey_final <- survey_final %>% arrange(Owner, desc(sum))
-survey_final[1:10]
-
+survey_final <- survey_final %>% arrange(desc(sum))
+head(survey_final, 10)
