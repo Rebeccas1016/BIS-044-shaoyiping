@@ -16,4 +16,4 @@ ggplot(data=DF) +
   xlim(0, 5) + 
   facet_wrap(~STABBR)
 
-cat("\014")
+# cat("\014")
